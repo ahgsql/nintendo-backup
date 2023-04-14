@@ -5,14 +5,14 @@
 }
 .main-footer-container {
     height: 500px; /*change these after width and height */
-    background-color: brown;
+    background-color: rgb(142, 165, 42);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.top-section {
+.footer-top-section {
     height: 100px;
     width: 100%;
     background-color: #E60012;
@@ -21,19 +21,44 @@
     align-items: center;
 }
 
-.nintendo-logo-section {
+.footer-nintendo-logo-section {
     padding-left: 120px;
 }
 
-.social-media-section {
+.footer-social-media-section {
     display: flex;
     gap: 40px;
     padding-right: 120px;
 }
 
-.bottom-section {
+.footer-mid-section {
+    padding-top: 25px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     flex: 1;
     background-color: rgb(255, 255, 255);
-    color: #484848; /*this color for text probably*/
+    color: #484848; /*this color for text*/
+}
+
+.footer-bottom-section {
+    color: white;
+    background-color: black;
+    padding-top: 25px;
+    height: 10%;
+    width: 100%;
+}
+
+.footer-list-container {
+    padding: 5px 30px 0 15px;
+    border-right: 1px solid black;
+}
+
+.footer-title-link, .footer-li-link {
+    text-decoration: none;
+}
+
+.footer-list {
+    list-style-type: none;
 }
