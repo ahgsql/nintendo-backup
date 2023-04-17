@@ -1,5 +1,7 @@
-h1{
-    color:rgb(72, 72, 72);     
+#Store>h1,#Systems>h1{
+    color:rgb(72, 72, 72);
+    margin: 37px 0;
+    font-size: 28px     
 }
 
 #buttons{
@@ -8,12 +10,16 @@ h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer; 
     border: unset; 
-    padding: 0.5rem 1.5rem;
+    padding: 0.8rem 1.5rem;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 18px;
     border-radius: 0.25rem;
     display: inline;
+   
   
+}
+#buttons:hover{
+     scale: 1.1;
 }
 body{
 
@@ -21,6 +27,25 @@ body{
     display: block;
     
 }
-#Store,p {
+#Store>p,#Systems>p {
     display: inline-block;
+    font-size: 21px;
+    margin: 50px 32px 50px 0;
+}
+#carlos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    color: gray ;
+
+}
+#carlos>hr {
+    margin: 0;
+    align-self: stretch;
+  }
+.pic{
+    cursor: pointer;
+
 }
