@@ -1,26 +1,26 @@
-#Store>h1{
-    color:rgb(72, 72, 72);
+h1{
+    color:rgb(72, 72, 72);     
 }
 
-#Store>#buttons{
+#buttons{
     background-color:red ;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
     cursor: pointer; 
-    box-sizing: border-box;
     border: unset; 
     padding: 0.5rem 1.5rem;
     font-weight: 700;
     font-size: 1rem;
     border-radius: 0.25rem;
+    display: inline;
   
 }
-#Store{
+body{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: block;
-    min-height: 1px;
-    width: 100%;
-    align-content: center;
-    align-items: center;
-    text-align: center;
+    
+}
+#Store,p {
+    display: inline-block;
 }
