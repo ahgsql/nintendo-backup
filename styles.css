@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 body {
   margin: 0px 0px 0px 0px;
@@ -90,4 +91,65 @@ body {
   padding-right: 4px;
   font-weight: 700;
   color: red;
+}
+#news-section {
+    margin: 50px auto 50px 20%;
+
+}
+
+#news-section>h1 {
+    font-size: 32px
+}
+
+#featured-news {
+    display: grid;
+    grid-template-columns: 556px 556px;
+    grid-gap: 32px;
+    margin-bottom: 32px;
+}
+
+#other-news {
+    display: grid;
+    grid-template-columns: 262px 262px 262px 262px;
+    grid-gap: 32px;
+
+}
+
+.news-date {
+    margin: 16px 0;
+    color: gray;
+}
+
+.news-title {
+    height: 60px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+}
+
+.news-text {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.news-more {
+    color: red;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+
+    font-weight: bold;
+}
+
+.featured-news-card {}
+
+
+.featured-news-card>img {
+    width: 556px;
+}
+
+.other-news-card {}
+
+.other-news-card>img {
+    width: 262px;
 }
